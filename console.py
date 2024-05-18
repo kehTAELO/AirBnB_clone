@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 import cmd
+import re
+from shlex import split
 
 """Defines the HBnB console"""
 class HBNBCommand(cmd.Cmd):
